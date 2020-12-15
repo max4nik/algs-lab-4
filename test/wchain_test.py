@@ -23,5 +23,6 @@ class WChainTest(unittest.TestCase):
         w = WChain(path + "wchain4.in")
         self.assertEqual(4, w.count_chains())
 
-    if __name__ == '__main__':
-        unittest.main()
+
+if __name__ == '__main__':
+    unittest.main()
